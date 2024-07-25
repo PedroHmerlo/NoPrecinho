@@ -1,0 +1,42 @@
+.prod_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.prod_item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 200px;
+}
+
+.prod_item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.prod_item span {
+  display: block;
+  margin: 8px 0;
+}
+
+.prod_item button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  max-width: 150px; /* Define the fixed width */
+  margin: 10px auto 0; /* Center the button */
+}
+
+.prod_item button:hover {
+  background-color: #218838;
+}

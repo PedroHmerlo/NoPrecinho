@@ -1,0 +1,85 @@
+ .minibox{
+    width: 250px;
+    height: 250px;
+    border: 1px solid #000000;
+    background-color: white;
+    border-radius: 50px;
+}
+
+  .minibox h4{
+    font-weight: 40px;
+  }
+.tituloCarrinho{
+    border-bottom: 2px solid black;
+}
+
+.box2{
+    width: 700px;
+    height: 600px;
+    border: 1px solid #000000;
+    background-color: white;
+    border-radius: 100px;
+}   
+
+.icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.btnCarrinho{
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    align-self:center;
+    margin-top: 50px;
+}
+
+  
+  .carrinho-img {
+    width: 20%;
+    height: 20%;
+    
+  }
+
+  .FOTOCARRINHO{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+  .list-group{
+    height: 100%;
+    width: 650px;
+  }
+
+  .btn-comparar{
+    background-color: #009970;
+    color: white;
+    
+  }
+
+  .boxComparacao{
+    width: 450px;
+    height: 450px;
+    border: 1px solid #000000;
+    background-color: white;
+    border-radius: 100px;
+  }
+
+  .lista_comparacao{
+    width: 300px;
+    height: auto;
+  }
+  
